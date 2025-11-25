@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Insurance AI Agent</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* Inline critical CSS to ensure messages are visible */
+        #messages {
+            min-height: 400px;
+            max-height: 600px;
+            overflow-y: auto;
+            background: #f8f9fa;
+            padding: 15px;
+        }
+        
+        .message {
+            margin-bottom: 12px;
+            padding: 12px;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-box">
+        <h2>National Life Insurance AI Assistant</h2>
+
+        <div id="messages"></div>
+
+        <div class="input-container">
+            <input 
+                id="input" 
+                type="text" 
+                placeholder="Ask something..." 
+                autocomplete="off"
+            />
+            <button id="send-btn" type="button">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
