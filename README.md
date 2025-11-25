@@ -149,6 +149,8 @@ Just open `frontend/index.html` in your browser.
 
 
 ---
+## Final Output : 
+<img width="782" height="855" alt="Image" src="https://github.com/user-attachments/assets/571035fc-d1d2-4ef2-866b-779f5e41744d" />
 
 ##  Future Improvements
 
