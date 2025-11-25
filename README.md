@@ -24,9 +24,8 @@ life_insurance/
 │
 └── ven/                     
 ```
-
+<img width="782" height="855" alt="Image" src="https://github.com/user-attachments/assets/571035fc-d1d2-4ef2-866b-779f5e41744d" />
 ---
-<img width="795" height="847" alt="Image" src="https://github.com/user-attachments/assets/24562df3-4768-4eae-bd8c-d777e8df4827" />
 ##  Project Overview
 
 This project is designed to make **life insurance selection simple and interactive**.
@@ -149,8 +148,6 @@ Just open `frontend/index.html` in your browser.
 
 
 ---
-## Final Output : 
-<img width="782" height="855" alt="Image" src="https://github.com/user-attachments/assets/571035fc-d1d2-4ef2-866b-779f5e41744d" />
 
 ##  Future Improvements
 
