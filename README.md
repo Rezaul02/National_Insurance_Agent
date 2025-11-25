@@ -26,8 +26,8 @@ life_insurance/
 ```
 
 ---
-
-## 🚀 Project Overview
+<img width="795" height="847" alt="Image" src="https://github.com/user-attachments/assets/24562df3-4768-4eae-bd8c-d777e8df4827" />
+##  Project Overview
 
 This project is designed to make **life insurance selection simple and interactive**.
 Instead of giving users long documents to read, the system provides a **chat-based interface** where users can ask questions and be guided to the right insurance policy.
@@ -44,7 +44,7 @@ It works perfectly for **banks**, **insurance call centers**, or **web-based sel
 
 ---
 
-## 🧠 Backend (Flask + AI Agent)
+##  Backend (Flask + AI Agent)
 
 The backend is built with **Python/Flask** and includes:
 
@@ -53,7 +53,7 @@ The backend is built with **Python/Flask** and includes:
 Handles natural language understanding and response generation.
 It reads user messages, checks conditions, fetches the right insurance data, and produces meaningful replies.
 
-### ✔ `insurance_data.py`
+###  `insurance_data.py`
 
 Contains structured information about different life insurance plans such as:
 
@@ -65,7 +65,7 @@ Contains structured information about different life insurance plans such as:
 
 Each plan includes **benefits, premium ranges, eligibility, and ideal customer type**.
 
-### ✔ `db.py`
+###  `db.py`
 
 A tiny SQLite wrapper used to store:
 
@@ -73,14 +73,14 @@ A tiny SQLite wrapper used to store:
 * Query histories
 * Analysis patterns
 
-### ✔ `app.py`
+###  `app.py`
 
 The main server that connects frontend → AI agent → output.
 Exposes clean REST APIs for communication.
 
 ---
 
-## 🎨 Frontend (HTML, CSS, JavaScript)
+##  Frontend (HTML, CSS, JavaScript)
 
 The frontend provides a modern chat interface.
 
@@ -100,23 +100,23 @@ Files:
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Create and activate virtual environment
+###  Create and activate virtual environment
 
 ```bash
 python -m venv ven
 source ven/bin/activate    # On Windows: ven\Scripts\activate
 ```
 
-### 2️⃣ Install backend dependencies
+###  Install backend dependencies
 
 ```bash
 cd backend
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Add environment variables
+###  Add environment variables
 
 Create `.env` file with:
 
@@ -125,19 +125,19 @@ API_KEY=your_key_here
 MODEL_NAME=your_model_here
 ```
 
-### 4️⃣ Run backend server
+###  Run backend server
 
 ```bash
 python app.py
 ```
 
-### 5️⃣ Open the frontend
+###  Open the frontend
 
 Just open `frontend/index.html` in your browser.
 
 ---
 
-## 💡 How It Works (Simple Explanation)
+##  How It Works (Simple Explanation)
 
 1. User sends a message from the frontend.
 2. Backend receives it and forwards to the AI agent.
@@ -146,31 +146,17 @@ Just open `frontend/index.html` in your browser.
 5. It generates a helpful explanation and recommendation.
 6. Conversation is stored for future reference.
 
-This creates a **smooth, natural, intelligent customer experience** 🌟
+
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 * Integration with real insurance APIs
 * Voice-based assistant
-* Bengali/Multilingual support 🗣️
+* Bengali/Multilingual support �️
 * Dynamic premium calculation
 * Admin dashboard for analytics
 
 ---
 
-## 🤝 Contributions
-
-Feel free to improve the agent, add new plans, or enhance the UI!
-
----
-
-If you'd like, I can also:
-
-✅ Add badges, logo, or screenshots in README
-✅ Build an installation script
-✅ Generate a PDF documentation
-✅ Rewrite README in Bangla
-
-Just tell me! 😊
