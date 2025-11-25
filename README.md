@@ -51,7 +51,7 @@ It works perfectly for **banks**, **insurance call centers**, or **web-based sel
 
 The backend is built with **Python/Flask** and includes:
 
-### ✔ `agent.py`
+###  `agent.py`
 
 Handles natural language understanding and response generation.
 It reads user messages, checks conditions, fetches the right insurance data, and produces meaningful replies.
@@ -93,7 +93,7 @@ The frontend provides a modern chat interface.
 * Smooth message bubbles
 * API integration to the backend
 * Auto-scrolling chat window
-* Loading animations ✨
+* Loading animations 
 
 Files:
 
@@ -157,7 +157,7 @@ Just open `frontend/index.html` in your browser.
 
 * Integration with real insurance APIs
 * Voice-based assistant
-* Bengali/Multilingual support �️
+* Bengali/Multilingual support 
 * Dynamic premium calculation
 * Admin dashboard for analytics
 
